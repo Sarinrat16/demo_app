@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe Comment do
+
 	before { @comment = Comment.new( body: "Sawaddee" ) }
 	subject {@comment}
 
@@ -11,3 +12,4 @@ describe "when Body format is valid" do
 	it { should_not be_valid }  
 	end
 end
+
