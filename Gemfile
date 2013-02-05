@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem "twitter-bootstrap-rails", '2.2.0'
 
 gem 'bcrypt-ruby', '3.0.1'
+gem "twitter-bootstrap-rails", '2.2.0'
 
 
 gem 'json'
